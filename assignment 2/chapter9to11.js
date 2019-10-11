@@ -94,10 +94,10 @@ document.writeln("Remarks: ", remarks);
 
 // task 7 
 
-document.writeln("task 6 \n");
+document.writeln("task 7 \n");
 
 var secNum = 2;
-var guess = parseInt(prompt("Enter the guess between 1 to 10");
+var guess = parseInt(prompt("Enter the guess between 1 to 10"));
 if(guess == secNum){
     document.writeln("Bingo! Correct answer \n");
 }else if (guess == (secNum + 1)){
