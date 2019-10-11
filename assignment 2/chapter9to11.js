@@ -65,7 +65,7 @@ if (false){
 alert("False");
 }
 
-// task 6
+//task 6
 
 document.writeln("task 6 \n");
 var totalMarks = parseInt(prompt("Enter the total marks of 3 subjects"));
@@ -92,4 +92,15 @@ document.writeln("Percentage: ", percentage);
 document.writeln("Grade: ", grade);
 document.writeln("Remarks: ", remarks);
 
+// task 7 
+
+document.writeln("task 6 \n");
+
+var secNum = 2;
+var guess = parseInt(prompt("Enter the guess between 1 to 10");
+if(guess == secNum){
+    document.writeln("Bingo! Correct answer \n");
+}else if (guess == (secNum + 1)){
+    document.writeln("Close enough to the correct answer \n");
+}
 
