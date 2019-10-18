@@ -6,14 +6,7 @@ var qualifications = ["SSC","HSC","BCS","BS","BCOM","MS", "M. Phil.","PhD"];
 
 
 document.writeln("<h1>Qualifications: </h1> \n");
-// document.writeln("1) " + qualifications[0] + " \n");
-// document.writeln("2) " + qualifications[1] + " \n");
-// document.writeln("3) " + qualifications[2] + " \n");
-// document.writeln("4) " + qualifications[3] + " \n");
-// document.writeln("5) " + qualifications[4] + " \n");
-// document.writeln("6) " + qualifications[5] + " \n");
-// document.writeln("7) " + qualifications[6] + " \n");
-// document.writeln("8) " + qualifications[7] + " \n");
+
 for(i=0; i<qualifications.length;i++){
     document.writeln(i+1 + ") " + qualifications[i]);
 }
@@ -27,9 +20,7 @@ var students = ["Ali", "Haris", "Furqan"];
 var scores = [320, 230, 480];
 var totalScore = 500;
 var percentages = [(320/500) *100 , (230/500) *100 , (480/500) * 100];
-// document.writeln("Score of " + students[0] + " is " + scores[0] + ". Percentage: " + percentages[0] + "%\n");
-// document.writeln("Score of " + students[1] + " is " + scores[1] + ". Percentage: " + percentages[1] + "%\n");
-// document.writeln("Score of " + students[2] + " is " + scores[2] + ". Percentage: " + percentages[2] + "%\n");
+
 for(i=0; i< percentages.length; i++){
     document.writeln("Score of " + students[i] + " is " + scores[i] + ". Percentage: " + percentages[i] + "%");
 }
